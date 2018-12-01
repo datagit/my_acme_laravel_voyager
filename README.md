@@ -10,3 +10,8 @@ Make authenticate
 ```bash
 $ php artisan make:auth
 ```
+
+Unit test
+```bash
+phpunit --coverage-html=results/phpunit/covegare tests
+```
