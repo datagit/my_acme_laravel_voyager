@@ -55,3 +55,15 @@ check in tinker
 $p = App\Product::find(1);
 $p->categories;
 ```
+
+setup at new environment
+```bash
+$ composer install
+$ cp .env.example .env
+# update info config to DB
+# #check connect to DB by tinker
+$ php artisan tinker
+    #DB::connection()->getPdo()
+$ php artisan voyager:install --with-dummy
+$ php artisan key:generate
+```
