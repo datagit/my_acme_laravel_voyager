@@ -20,6 +20,17 @@ laravel-phpinfo
 $ composer require jeremykenedy/laravel-phpinfo
 ```
 
+https://laravel-news.com/laravel-5-4-key-too-long-error
+```php
+use Illuminate\Support\Facades\Schema;
+
+public function boot()
+{
+    Schema::defaultStringLength(191);
+}
+```
+
+
 Create Tables: product, product_category, product_category_relation
 ```bash
 # define schema
