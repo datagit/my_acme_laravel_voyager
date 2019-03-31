@@ -78,3 +78,9 @@ $ php artisan tinker
 $ php artisan voyager:install --with-dummy
 $ php artisan key:generate
 ```
+Composer script
+[guide](https://getcomposer.org/doc/articles/scripts.md)
+```bash
+$ /c/xampp/php/php.exe ~/composer.phar run-script test
+```
+
