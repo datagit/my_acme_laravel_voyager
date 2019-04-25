@@ -85,3 +85,11 @@ $ /c/xampp/php/php.exe ~/composer.phar run-script test
 ```
 overriding views
 https://www.youtube.com/watch?v=H5zj-bdXa_w
+
+```bash
+#make migration with existed model
+$ php artisan make:migration create_products_table
+$ php artisan migrate
+# if need rollback last step
+$ php artisan migrate:rollback --step=1
+```
