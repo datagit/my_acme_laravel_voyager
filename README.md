@@ -60,7 +60,10 @@ https://voyager.readme.io/docs/additional-field-options
 relationships many to many in BREAD in admin
  - product relationship: https://prnt.sc/m2rmj7
  - color json data list: https://prnt.sc/m2rs23
-
+ - validation filed: https://prnt.sc/nhhqro 
+                   : https://laravel.com/docs/5.8/validation#rule-unique
+ - builder BREAD: https://docs.laravelvoyager.com/core-concepts/bread-builder
+ 
 check in tinker
 ```php
 $p = App\Product::find(1);
