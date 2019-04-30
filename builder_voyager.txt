@@ -1,0 +1,10 @@
+ADMIN:
+- build source
+- custom layout for your bussiness
+- create structure database for your bussiness
+- create each structure table: [datatype, lenght, index, unquie, unsigned]
+- create BREAD each table: [HTML UI control for datatype, validation, default value]
+- create roles: normail-admin: [browse admin, browse media, ex: full "posts",...]
+- export structure and data database
+APPLY HTML:
+APPLY CODE FORTEND:

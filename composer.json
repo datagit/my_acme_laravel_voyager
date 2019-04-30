@@ -13,7 +13,7 @@
         "jeremykenedy/laravel-phpinfo": "^1.2",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "tcg/voyager": "^1.1"
+        "tcg/voyager": "1.2.*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
