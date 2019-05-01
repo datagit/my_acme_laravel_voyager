@@ -96,3 +96,6 @@ $ php artisan migrate
 # if need rollback last step
 $ php artisan migrate:rollback --step=1
 ```
+
+override lang:
+https://github.com/the-control-group/voyager/issues/1364
