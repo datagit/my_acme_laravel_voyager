@@ -24,6 +24,12 @@ Route::get('/', function () {
 //    var_dump($about->meta_description);
 
     //echo menu('admin', '_json');
+    $object = [1,2,3,4,5];
+    Debugbar::info($object);
+    Debugbar::error('Error!');
+    Debugbar::warning('Watch out…');
+    Debugbar::addMessage('Another message', 'mylabel');
+
     echo setting('site.hello_world');
     return view('welcome');
 });
